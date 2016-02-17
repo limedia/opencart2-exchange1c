@@ -436,7 +436,6 @@ class ModelToolExchange1c extends Model {
 		$sql .= isset($data['jan']) 			? ", jan = '" . $this->db->escape($data['jan']) . "'"						: "";
 		$sql .= isset($data['isbn']) 			? ", isbn = '" . $this->db->escape($data['isbn']) . "'"						: "";
 		$sql .= isset($data['mpn']) 			? ", mpn = '" . $this->db->escape($data['mpn']) . "'"						: "";
-		$sql .= isset($data['mpn']) 			? ", mpn = '" . $this->db->escape($data['mpn']) . "'"						: "";
 		$sql .= isset($data['location']) 		? ", location = '" . $this->db->escape($data['location']) . "'"				: "";
 		$sql .= isset($data['quantity']) 		? ", quantity = '" . (int)$data['quantity'] . "'"							: "";
 		$sql .= isset($data['minimum']) 		? ", minimum = '" . (int)$data['minimum'] . "'"								: "";
